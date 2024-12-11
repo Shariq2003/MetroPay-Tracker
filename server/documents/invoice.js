@@ -128,7 +128,7 @@ img {
 
       <div>
           <p class="title">Bill to:</p>
-          <h4>Panshak Solomon</h4>
+          <h4>Mohd Abdullah</h4>
           <p>ipanshak@gmail.com</p>
           <p>+234 803 057 3601</p>
           <p>A.P. Leventis Ornithological Research</p>

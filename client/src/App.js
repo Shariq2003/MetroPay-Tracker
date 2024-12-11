@@ -1,6 +1,3 @@
-
-//Copyright (c) 2022 Panshak Solomon
-
 import React from 'react'
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
 import SnackbarProvider from 'react-simple-snackbar'
@@ -29,7 +26,7 @@ function App() {
      {user && <NavBar />} 
       <Header />
         <Switch>
-          <Route path="/" exact component={Home} />
+            <Route path="/" exact component={Dashboard} />
           <Route path="/invoice" exact component={Invoice} />
           <Route path="/edit/invoice/:id" exact component={Invoice} />
           <Route path="/invoice/:id" exact component={InvoiceDetails} />
